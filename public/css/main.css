@@ -1,0 +1,39 @@
+/*** Main css */
+
+/** new Neumorphism styles **/
+
+.shadow-concave {
+    border-radius: 11px;
+    background: linear-gradient(145deg, #cfd0d6, #f6f7ff);
+    box-shadow:  5px 5px 10px #adadb3, 
+             -5px -5px 10px #ffffff;
+}
+
+.shadow-pressd {
+    border-radius: 5px;
+    background: #e6e7ee;
+    box-shadow: inset 5px 5px 12px #b8b9be, 
+            inset -5px -5px 12px #ffffff;
+}
+
+.shadow-convex {
+    border-radius: 5px;
+    background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+    box-shadow:  5px 5px 7px #adadb3, 
+             -5px -5px 7px #ffffff;
+}
+
+.shadow-convex-sm {
+    border-radius: 5px;
+    background: linear-gradient(145deg, #f6f7ff, #cfd0d6);
+    box-shadow:  3px 3px 4px #818185, 
+             -3px -3px 4px #ffffff;
+}
+
+/* Other new style */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
