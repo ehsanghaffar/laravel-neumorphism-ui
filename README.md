@@ -13,9 +13,9 @@
 ## Using this repository
 
 * before use you need install below
-    1. php => 7.3
-    2. mysql
-    3. composer
+    - php => 7.3
+    - mysql
+    - composer
 
 1. Clone this repository
     `git clone https://github.com/ehsanghaffarii/Laravel-neumorphism.git`
