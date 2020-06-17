@@ -1,58 +1,61 @@
 @extends('site.layouts.app')
 
 @section('content')
-<div class="container pt-5">
+<main>
     <!-- About me -->
-    <section class="container mt-4">
-        <div class="row border-light shadow rounded-lg p-5">
+    <div class="section section-header pb-7">
+        <div class="container">
+            <div class="row justify-content-center">
             
-            <div class="col-md-3">
-                <img class="card-img rounded-lg" src="{{ asset('img/info-img.jpg')}}">
-            </div>
-            <div class="col-md-8 border-left">
-                <h1>Hi, I'm Ehsan</h1>
-                <h3>Welcome to my personal blog</h3>
-                <p> This is my home page on World Wide Web...</p>
-                <p>Have a question or advice?</p>
-                <a class="btn btn-primary text-secondary border" href="tel:09195062188">Call me now!</a>
+                <div class="col-12 col-lg-8 text-center">
+                    <h1>Hi, I'm Ehsan</h1>
+                    <h3>Welcome to my personal blog</h3>
+                    <p> This is my home page on World Wide Web...</p>
+                    <p>Have a question or advice?</p>
+                    <a class="btn btn-primary text-info border" href="tel:09195062188">Call me now!</a>
+                </div>
             </div>
         </div>
     </section>
     <!-- portfolio Section -->
-    <section class="section mt-4">
-            <div class="section-title d-flex p-3">
-                <i class="fa fa-th-large fa-2x px-2"></i>
-                <h3> Here are some examples of projects I have done ... </h3>
-            </div>
-            <div class="row mb-5">
-                @foreach($portfolios as $portfolio)
-                    <div class="col-12 col-md-6 col-lg-4 mb-5">
-                    <div class="card bg-primary border-light shadow-soft m-2">
-                        <img class="card-img-top rounded-top" height="200" src="{{ asset('portfolios/' .$portfolio->image) }}" alt="Themesberg office">
-                        <div class="card-body">
-                            <a href="{{ route('viewPortfolioPage', ['portfolio' => $portfolio]) }}">
-                            <h3 class="h5 card-title mt-3">{{ $portfolio->title }}</h3></a>
-                            <p class="card-text">{{ $portfolio->client }}</p>
-                            <a href="{{ route('viewPortfolioPage', ['portfolio' => $portfolio]) }}" class="btn btn-primary btn-sm border">Learn More</a>
+    <section class="section section-lg border-top mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="section-title justify-content-center mx-auto mb-5">
+                    <h3>Some of my projects </h3>
+                </div>
+                <div class="col-md-12 d-flex mb-5">
+                    <!-- portfolios card -->
+                    @foreach($portfolios as $portfolio)
+                    <div class="card bg-primary shadow-concave border m-2">
+                        <div class="card-header p-4">
+                            <img src="{{ asset('portfolios/' .$portfolio->image) }}" class="card-img-top rounded" alt="Wood Portrait">
                         </div>
-                    </div>
+                        <div class="card-body pt-2">
+                        <h3 class="h5 mb-2">{{ $portfolio->title }}</h3>
+                            <span class="h6 font-weight-normal text-gray mb-4">Website: {{ $portfolio->link }}</span>
+                            <p class="card-text">Author: {{ $portfolio->client }}</p>
+                            <a href="{{ route('viewPortfolioPage', ['portfolio' => $portfolio]) }}" class="btn btn-primary btn-block text-success border">See Portfolio page</a>
+                        </div>
                     </div>
                     @endforeach
                 </div>
+            </div>
         </div>
     </section>
     <!-- source code -->
     <section class="section">
         <div class="container">
-            <div class="section-title d-flex p-3">
-                <i class="fa fa-star fa-2x px-2"></i><h3> My Open Source Project</h3>
-            </div>
-            <div class="card border-light shadow w-50">
+            <div class="row">
+                <div class="section-title justify-content-center mx-auto p-3">
+                    <h3> Open Source Project</h3>
+                </div>
+            <div class="card border-light shadow-concave mx-auto w-75">
                 <div class="row no-gutter">
                     <div class="col-md-4">
-                        <img class="card-img p-2" src="img/{{ settings('image') }}" alt="">
+                        <img class="card-img rounded-circle p-3" src="img/{{ settings('image') }}" alt="">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 p-5">
                         <div class="card-body p-1">
                             <div class="card-title m-1">
                                 <h5>{{ settings('title') }}</h5>
@@ -62,9 +65,10 @@
                                     {{ settings('description') }}
                                 </p>
                             </div>
-                            <a href="#" class="btn btn-primary border">More Info</a>
+                            <a href="https://wa.me/989195063188" class="btn btn-primary border"><i class="fa fa-whatsapp"></i>Contact Me</a>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -108,5 +112,5 @@
         </div>
     </section>
     <!--================ End Newsletter Area =================-->
-</div>
+</main>
 @stop

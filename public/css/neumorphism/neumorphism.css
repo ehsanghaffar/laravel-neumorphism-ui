@@ -25437,7 +25437,7 @@ button.section-slack:focus {
 
 .section-header {
     position: relative;
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -25450,7 +25450,7 @@ button.section-slack:focus {
 
     .section-header {
         position: relative;
-        padding-top: 10rem;
+        padding-top: 6rem;
         padding-bottom: 10rem;
     }
 

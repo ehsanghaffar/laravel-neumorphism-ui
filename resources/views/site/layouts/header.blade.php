@@ -2,7 +2,7 @@
     <div class="header-inner">
         <nav class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light">
             <div class="container">
-            <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="{{ route('homePage') }}"><img class="" src="img/logo.png" alt="ehsan ghaffarii web developer logo"></a>
+            <a class="navbar-brand shadow-convex-sm py-2 px-3 border mr-lg-4" href="{{ route('homePage') }}"><img class="" src="img/logo.png" alt="ehsan ghaffarii web developer logo"></a>
                 <div class="collapse navbar-collapse offset" id="navbar_global">
                     <div class="navbar-collapse-header">
                         <div class="row">
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="d-flex align-items-center">
-                    <a href="{{ route('admin') }}" target="_blank" class="btn btn-primary text-secondary border mr-3"><i class="far fa-user mr-2"></i>Admin Panel</a>
+                    <a href="https://github.com/ehsanghaffarii/laravel-neumorphism" target="_blank" class="btn btn-primary text-secondary border mr-3"><i class="fab fa-github mr-2"></i>github Source</a>
                     <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

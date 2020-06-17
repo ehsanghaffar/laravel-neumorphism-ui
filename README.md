@@ -10,12 +10,15 @@
 * Neumorphism design
 * Terminal Support on Shared hosting with [Laravel Terminal](https://github.com/recca0120/laravel-terminal)
 
-## Using this repository
 
-* before use you need install below
-    - php => 7.3
-    - mysql
-    - composer
+Beside Laravel, this project uses other tools like:
+
+    * [Bootstrap 4](https://getbootstrap.com)
+    * [Neumorphism UI](https://neumorphism.io)
+    * [Laravel Terminal](https://github.com/recca0120/laravel-terminal)
+
+
+## Using this repository
 
 1. Clone this repository
     `git clone https://github.com/ehsanghaffarii/Laravel-neumorphism.git`
@@ -30,6 +33,9 @@
 5. open this url
     [http://localhost](http://localhost)
 
+## Contributing
+
+Do not hesitate to contribute to the project by adapting or adding features! Bug reports or pull requests are welcome.
 
 ## Author
 
@@ -37,4 +43,8 @@
 
 ## License
 
+<<<<<<< HEAD
 This project is open source and available under the [MIT License](https://github.com/ehsanghaffarii/laravel-neumorphism/blob/master/LICENSE).
+=======
+This project is open source and available under the [MIT License](http://opensource.org/licenses/MIT).
+>>>>>>> new changes
