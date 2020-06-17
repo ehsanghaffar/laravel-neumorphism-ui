@@ -2,7 +2,14 @@
 
 * The purpose of this repository is to show good development practices on Laravel as well as to present cases of use of the framework's features, also used Neumorphism to learn modern design.
 
+
+
 ## Using this repository
+
+** before install you need install below
+    * php => 7.3
+    * mysql
+    * composer
 
 1. Clone this repository
     `git clone https://github.com/ehsanghaffarii/Laravel-neumorphism.git`
@@ -17,7 +24,7 @@
 5. open this url
     [http://localhost](http://localhost)
 
-    
+
 ## Author
 
 - [Ehsanghaffarii](https://Ehsanghaffarii.ir)
