@@ -1,15 +1,21 @@
-# Laravel Neumorphism blog 
+# Laravel Neumorphism project 
 
 * The purpose of this repository is to show good development practices on Laravel as well as to present cases of use of the framework's features, also used Neumorphism to learn modern design.
 
+<strong>you can see the demo of this Project [Here](https://laravel.ehsanghaffarii.ir)</strong>
 
+## Features
+* Back-End Framework [Laravel](https://laravel.com)
+* Front-End Framework [Laravel](https://laravel.com)
+* Neumorphism design
+* Terminal Support on Shared hosting with [Laravel Terminal](https://github.com/recca0120/laravel-terminal)
 
 ## Using this repository
 
-** before install you need install below
-    * php => 7.3
-    * mysql
-    * composer
+* before use you need install below
+    1. php => 7.3
+    2. mysql
+    3. composer
 
 1. Clone this repository
     `git clone https://github.com/ehsanghaffarii/Laravel-neumorphism.git`
