@@ -13,9 +13,11 @@
 
 Beside Laravel, this project uses other tools like:
 
--[Bootstrap 4](https://getbootstrap.com)
--[Neumorphism UI](https://neumorphism.io)
--[Laravel Terminal](https://github.com/recca0120/laravel-terminal)
+* [Bootstrap 4](https://getbootstrap.com)
+
+* [Neumorphism UI](https://neumorphism.io)
+
+* [Laravel Terminal](https://github.com/recca0120/laravel-terminal)
 
 
 ## Using this repository

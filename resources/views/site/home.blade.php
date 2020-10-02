@@ -1,4 +1,7 @@
 @extends('site.layouts.app')
+@extends('site.layouts.meta-tags')
+@section('title', 'Ehsanghaffarii Laravel Blog')
+@section('meta_description', 'Ehsanghaffarii Blog using Laravel Framework')
 
 @section('content')
 <main>
@@ -6,7 +9,7 @@
     <div class="section section-header pb-7">
         <div class="container">
             <div class="row justify-content-center">
-            
+
                 <div class="col-12 col-lg-8 text-center">
                     <h1>Hi, I'm Ehsan</h1>
                     <h3>Welcome to my personal blog</h3>
@@ -20,6 +23,26 @@
     <!-- portfolio Section -->
     <section class="section section-lg border-top mt-4">
         <div class="container">
+            <div class="row">
+                @foreach($articles as $article)
+                <a href="{{ route('viewArticlePage', ['article' => $article]) }}" class="border m-2 shadow rounded">
+                <div class="card">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img class="rounded-lg" src="{{ asset('articles/' .$article->image) }}"  alt="{{ $article->title }}">
+                      </div>
+                      <div class="col-md-10">
+                        <div class="card-body p-1">
+                        <h5 class="card-title">{{ $article->title }}</h5>
+                          <p class="card-text">{{ $article->description }}</p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                    @endforeach
+            </div>
             <div class="row">
                 <div class="section-title justify-content-center mx-auto mb-5">
                     <h3>Some of my projects </h3>
@@ -40,6 +63,7 @@
                     </div>
                     @endforeach
                 </div>
+
             </div>
         </div>
     </section>
@@ -73,7 +97,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Newsletter me -->
     <section class="section">
         <div class="container">

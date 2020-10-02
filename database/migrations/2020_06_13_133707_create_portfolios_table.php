@@ -24,6 +24,8 @@ class CreatePortfoliosTable extends Migration
             $table->string('link')->nullable();
             $table->timestamp('completion_date')->useCurrent();
             $table->text('content');
+            $table->string('meta_keywords');
+            $table->string('meta_description');
             $table->timestamps();
         });
     }

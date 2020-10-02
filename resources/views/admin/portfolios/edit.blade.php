@@ -5,7 +5,7 @@
         <div class="card-header">Edit Portfolio</div>
 
         <div class="card-body">
-                
+
                     @include('flash::message')
             @if (count($errors))
                 <div class="alert alert-danger" role="alert">
@@ -62,6 +62,14 @@
                 <div class="form-group">
                     <label for="content">Content</label>
                     <textarea class="form-control" id="content" name="content" rows="10">{{ $portfolio->content }}</textarea>
+                </div>
+                <div class="form-group">
+                    <label>Keywords</label>
+                    <input name="meta_keywords" class="form-control" value="{{ $portfolio->meta_keywords }}">
+                </div>
+                <div class="form-group">
+                    <label>Description</label>
+                    <input name="meta_description" class="form-control" value="{{ $portfolio->meta_description }}">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

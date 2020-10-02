@@ -1,5 +1,7 @@
 @extends('site.layouts.app')
-
+@extends('site.layouts.meta-tags')
+@section('meta_description', $portfolio->meta_description)
+@section('title', $portfolio->title)
 @section('content')
     <!--================ Start portfolio Banner Area =================-->
     <section class="container">

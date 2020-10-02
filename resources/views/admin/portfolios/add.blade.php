@@ -39,7 +39,7 @@
             <div class="form-group">
                 <label for="link">Link</label>
                 <input type="text" class="form-control" id="link" name="link" aria-describedby="linkHelp">
-                <small id="linkHelp" class="form-text text-muted">Enter project link like: https://7learn.com</small>
+                <small id="linkHelp" class="form-text text-muted">Enter project link like: https://ehsanghaffarii.ir</small>
             </div>
             <div class="form-group">
                 <label for="completion_date">Completion Date</label>
@@ -49,6 +49,14 @@
             <div class="form-group">
                 <label for="content">Content</label>
                 <textarea class="form-control" id="content" name="content" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Keywords</label>
+                <input name="meta_keywords" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <input name="meta_description" class="form-control">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

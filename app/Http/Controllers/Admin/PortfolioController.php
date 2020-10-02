@@ -47,6 +47,8 @@ class PortfolioController extends Controller
             'link' => $request->link,
             'completion_date' => Jalalian::fromFormat('Y/m/d',$request->completion_date)->toCarbon(),
             'content' => \request('content'),
+            'meta_keywords' => $request->meta_keywords,
+            'meta_description' => $request->meta_description,
         ]);
 
         $image = $request->file('image');
@@ -54,7 +56,7 @@ class PortfolioController extends Controller
         $image->move('portfolios', $filename);
         $portfolio->image = $filename;
         $portfolio->save();
-        
+
         flash('Portfolio added successfully')->success();
         return redirect(route('viewAddPortfolio'));
     }
@@ -76,7 +78,7 @@ class PortfolioController extends Controller
             'completion_date' => 'required',
             'content' => 'required',
         ]);
-        
+
         $portfolio->update([
             'title' => $request->title,
             'description' => $request->description,
@@ -85,11 +87,13 @@ class PortfolioController extends Controller
             'link' => $request->link,
             'completion_date' => Jalalian::fromFormat('Y/m/d', $request->completion_date)->toCarbon(),
             'content' => \request('content'),
+            'meta_keywords' => $request->meta_keywords,
+            'meta_description' => $request->meta_description,
         ]);
 
         if ($request->hasFile('image')){
             File::delete(public_path().'/portfolio/'.$portfolio->image);
-        
+
             $image = $request->file('image');
             $filename = $portfolio->id . '_' . time() . '.' . $image->getClientOriginalExtension();
             $image->move('portfolios', $filename);

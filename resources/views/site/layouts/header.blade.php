@@ -18,6 +18,7 @@
                     </div>
                     <ul class="nav navbar-nav menu_nav justify-content-end">
                         <li class="nav-item active"><a class="nav-link" href="{{ route('homePage') }}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('viewArticles') }}">Articles</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('viewContactPage') }}">Contact</a></li>
                         @auth
                         <li class="nav-item"><a class="nav-link" href="{{ route('admin') }}">Admin</a></li>
