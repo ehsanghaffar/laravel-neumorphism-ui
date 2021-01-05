@@ -45,12 +45,4 @@ Do not hesitate to contribute to the project by adapting or adding features! Bug
 
 ## License
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-This project is open source and available under the [MIT License](https://github.com/ehsanghaffarii/laravel-neumorphism/blob/master/LICENSE).
-=======
 This project is open source and available under the [MIT License](http://opensource.org/licenses/MIT).
->>>>>>> new changes
-=======
-This project is open source and available under the [MIT License](http://opensource.org/licenses/MIT).
->>>>>>> new changes
