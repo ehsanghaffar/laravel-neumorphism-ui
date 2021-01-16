@@ -42,6 +42,9 @@ Do not hesitate to contribute to the project by adapting or adding features! Bug
 ## Author
 
 - [Ehsanghaffarii](https://Ehsanghaffarii.ir)
+<a href="https://linkedin.com/in/ehsanghaffarii" rel="nofollow" class="">
+                        <img src="/img/ehsanghaffarii-linkedin-account.png" alt="صفحه لینکدین احسان غفارلنگرودی" />
+</a>
 
 ## License
 
