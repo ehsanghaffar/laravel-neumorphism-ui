@@ -35,6 +35,8 @@ Beside Laravel, this project uses other tools like:
 5. open this url
     [http://localhost](http://localhost)
 
+branch for pull request is `create`
+
 ## Contributing
 
 Do not hesitate to contribute to the project by adapting or adding features! Bug reports or pull requests are welcome.
