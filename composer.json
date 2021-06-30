@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.2.5|^8.0.7",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
@@ -50,7 +50,6 @@
             "database/factories"
         ]
     },
-
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
