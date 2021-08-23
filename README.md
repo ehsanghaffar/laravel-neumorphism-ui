@@ -1,5 +1,8 @@
 # Laravel Neumorphism project 
 
+[![Created Badge](https://badges.pufler.dev/created/ehsanghaffarii/laravel-neumorphism)](https://badges.pufler.dev)
+
+
 * The purpose of this repository is to show good development practices on Laravel as well as to present cases of use of the framework's features, also used Neumorphism to learn modern design.
 
 <strong>you can see the demo of this Project [Here](https://laravel.ehsanghaffarii.ir)</strong>
