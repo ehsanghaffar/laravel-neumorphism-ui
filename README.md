@@ -5,7 +5,7 @@
 
 * The purpose of this repository is to show good development practices on Laravel as well as to present cases of use of the framework's features, also used Neumorphism to learn modern design.
 
-<strong>you can see the demo of this Project [Here](https://laravel.ehsanghaffarii.ir)</strong>
+you can see the demo of this Project [Soon](#)
 
 ## Features
 * Back-End Framework [Laravel](https://laravel.com)
@@ -46,10 +46,9 @@ Do not hesitate to contribute to the project by adapting or adding features! Bug
 
 ## Author
 
-- [Ehsanghaffarii](https://Ehsanghaffarii.ir)
-<a href="https://linkedin.com/in/ehsanghaffarii" rel="nofollow" class="">
-                        <img src="/img/ehsanghaffarii-linkedin-account.png" alt="صفحه لینکدین احسان غفارلنگرودی" />
-</a>
+- [Ehsanghaffarii Personal Website](https://Ehsanghaffarii.ir)
+
+- [![Linkedin Badge](https://img.shields.io/badge/-Ehsanghaffarii-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ehsanghaffarii/)](https://www.linkedin.com/in/ehsanghaffarii/)
 
 ## License
 
