@@ -26,7 +26,7 @@
                     </ul>
                 </div>
                 <div class="d-flex align-items-center">
-                    <a href="https://github.com/ehsanghaffarii/laravel-neumorphism" target="_blank" class="btn btn-primary text-secondary border mr-3"><i class="fab fa-github mr-2"></i>github Source</a>
+                    <a href="https://github.com/ehsanghaffarii/laravel-neumorphism" target="_blank" class="btn btn-primary text-secondary border mr-3"><i class="fa fa-github mr-2"></i>github Source</a>
                     <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

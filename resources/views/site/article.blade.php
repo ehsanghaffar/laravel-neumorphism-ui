@@ -27,7 +27,7 @@
                             <ul class="list">
                                 <li><span>Rating</span>:
                                     @for($i=0;$i<$article->rank;$i++)
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star" style="color:goldenrod"></i>
                                     @endfor
                                 </li>
                             </ul>

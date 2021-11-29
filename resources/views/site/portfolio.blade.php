@@ -11,13 +11,13 @@
     <!--================ End Portfolio Banner Area =================-->
 
     <!--================ Start Portfolio Details Area =================-->
-    <section class="portfolio_details_area section_gap">
+    <section class="portfolio_details_area section_gap mt-3">
         <div class="container">
             <div class="portfolio_details_inner">
-                <div class="row">
+                <div class="row py-4">
                     <div class="col-md-6">
-                        <div class="left_img">
-                            <img class="img-fluid" src="{{ asset('portfolios/'.$portfolio->image) }}" alt="">
+                        <div class="left_img text-center">
+                            <img class="img-fluid" src="{{ asset('portfolios/'.$portfolio->image) }}" alt="" style="width: 400px">
                         </div>
                     </div>
                     <div class="offset-md-1 col-md-5">
@@ -27,7 +27,7 @@
                             <ul class="list">
                                 <li><span>Rating</span>:
                                     @for($i=0;$i<$portfolio->rank;$i++)
-                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star" style="color: goldenrod"></i>
                                     @endfor
                                 </li>
                                 <li><span>Client</span>: {{ $portfolio->client }}</li>

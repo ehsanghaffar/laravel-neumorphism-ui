@@ -13,7 +13,7 @@
                     <div class="card-header p-4">
                         <img src="{{ asset('articles/' .$article->image) }}" class="card-img-top rounded" alt="Wood Portrait">
                     </div>
-                    <div class="card-body pt-2">
+                    <div class="card-body pt-2 d-flex flex-column justify-content-between">
                     <h3 class="h5 mb-2">{{ $article->title }}</h3>
                         <span class="h6 font-weight-normal text-gray mb-4">Website: {{ $article->description }}</span>
                         {{-- <p class="card-text">Author: {{ $article->content }}</p> --}}
