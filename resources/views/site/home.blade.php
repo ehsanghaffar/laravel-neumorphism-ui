@@ -21,14 +21,14 @@
         </div>
     </section>
     <!-- portfolio Section -->
-    <section class="section section-lg border-top mt-4">
+    <section class="section border-top mt-4">
         <div class="container">
             <div class="row">
                 @foreach($articles as $article)
                 <a href="{{ route('viewArticlePage', ['article' => $article]) }}" class="border m-2 shadow rounded">
                 <div class="card">
-                    <div class="row">
-                      <div class="col-md-2">
+                    <div class="row p-3">
+                      <div class="col-md-2 d-flex align-items-center">
                         <img class="rounded-lg" src="{{ asset('articles/' .$article->image) }}"  alt="{{ $article->title }}">
                       </div>
                       <div class="col-md-10">
@@ -43,7 +43,7 @@
                 </a>
                     @endforeach
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="section-title justify-content-center mx-auto mb-5">
                     <h3>Some of my projects </h3>
                 </div>
@@ -51,8 +51,8 @@
                     <!-- portfolios card -->
                     @foreach($portfolios as $portfolio)
                     <div class="card bg-primary shadow-concave border m-2">
-                        <div class="card-header p-4">
-                            <img src="{{ asset('portfolios/' .$portfolio->image) }}" class="card-img-top rounded" alt="Wood Portrait">
+                        <div class="card-header p-4 text-center">
+                            <img src="{{ asset('portfolios/' .$portfolio->image) }}" class="card-img-top rounded" style="width: 200px" alt="Wood Portrait">
                         </div>
                         <div class="card-body pt-2">
                         <h3 class="h5 mb-2">{{ $portfolio->title }}</h3>
