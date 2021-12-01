@@ -1,9 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "Neo-Laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Laravel Neumorphism personal blog",
     "keywords": [
-        "framework",
+        "neomorphism",
         "laravel"
     ],
     "license": "MIT",
