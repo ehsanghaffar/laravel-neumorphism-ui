@@ -23,10 +23,10 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
-        
+        // user seed
         DB::table('users')->insert([
             'name' => 'Ehsan',
-            'email' => 'info@ehsanghaffarii.ir',
+            'email' => 'info@admin.com',
             'password' => \Illuminate\Support\Facades\Hash::make('12345678')
         ]);
     }
