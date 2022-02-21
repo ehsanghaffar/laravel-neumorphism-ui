@@ -4,6 +4,7 @@
 /public/vendor
 /public/css/bootstrap.css
 /public/css/bootstrap.min.css
+/public/js/bootstrap.min.js
 /storage/*.key
 /vendor
 .env
