@@ -39,8 +39,8 @@ Beside Laravel, this project uses other tools like:
     `php artisan migrate`
 4. serve website
     `php artisan serve`
-5. open this url
-    [http://localhost](http://localhost)
+5. open and enjoy
+    [http://localhost](http://localhost:8000)
 
 branch for pull request is `create`
 
