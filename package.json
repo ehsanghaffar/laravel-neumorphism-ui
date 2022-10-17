@@ -1,4 +1,5 @@
 {
+    "name": "laravel-neumorphism",
     "private": true,
     "scripts": {
         "dev": "npm run development",

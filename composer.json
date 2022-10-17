@@ -1,6 +1,6 @@
 {
-    "name": "Neo-Laravel",
-    "type": "project",
+    "name": "laravel/neomorphism",
+    "type": "cms",
     "description": "The Laravel Neumorphism personal blog",
     "keywords": [
         "neomorphism",
